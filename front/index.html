@@ -3,9 +3,20 @@
 <head>
 	<meta charset="UTF-8">
 	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
 	<title>Servir html</title>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0/jquery.js"></script>
+	<script src="js/server_go.js"></script>
 </head>
 <body>
-	<h1>Hola desde html</h1>
+	<div id="container">
+		<div id="registro">
+			<form id="form_registro" class="form-horizontal">
+				<label for="nombre">UserName:</label>
+				<input type="text" name="user_name" id="user_name" class="form-control">
+				<input type="submit" value="enviar" class="btn btn-default">
+			</form>
+		</div>
+	</div>
 </body>
 </html>
